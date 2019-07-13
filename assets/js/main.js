@@ -218,6 +218,28 @@ Template Name: SeoKit
         });
     }
 
+    $("#back-to-top").click(function () {
+       $("html, body").animate({scrollTop: 0}, 1000);
+    });
+
+//     $('#website-form').submit(function() {
+//     $("#submit-message").html("Submitting your entry...");
+
+//     $.ajax({
+//         url: 'inc/store-address.php',
+//         data: $('#website-form').serialize(),
+//         success: function(msg) {
+//             if(msg === 'Success! ') {
+//             $('#submit-message').html(msg);
+//             $('#modalSubscribe').delay(500).addClass('d-block show');
+//             $('body').delay(500).addClass('d-block show');
+//             }
+//         }
+
+//     });
+//     return false;
+// });
+
     preloader();
     scrollNavigation();
     backToTopWithHeaderChange();

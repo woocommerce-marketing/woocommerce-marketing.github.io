@@ -181,7 +181,7 @@ function initMap() {
     var marker = new google.maps.Marker({
         position: map.getCenter(),
         animation: google.maps.Animation.BOUNCE,
-        icon: 'assets/images/seokit/map-marker.png',
+        icon: 'assets/images/marketer/map-marker.png',
         map: map
     });
 }
